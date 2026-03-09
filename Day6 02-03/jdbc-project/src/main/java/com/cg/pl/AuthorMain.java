@@ -1,0 +1,20 @@
+package com.cg.pl;
+
+import com.cg.bean.Author;
+import com.cg.bean.Book;
+import com.cg.service.AuthorService;
+import com.cg.service.IAuthorService;
+
+public class AuthorMain {
+
+	public static void main(String[] args) {
+		IAuthorService as = new AuthorService();
+//		Author a = new Author("anil", "kumar","mishra", "+91-8418838491");
+		
+//		Book b = new Book("First Book", 2500.00, 1);
+		
+		System.out.println(as.updatePrice("anil", 1000.00));
+
+	}
+
+}
