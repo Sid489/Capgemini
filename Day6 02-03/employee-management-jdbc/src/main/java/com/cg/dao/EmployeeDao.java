@@ -14,7 +14,7 @@ public class EmployeeDao implements IEmployeeDao{
 	private static Connection con;
 	static {
 		try {
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/java_project","root","user");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","pass1234");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

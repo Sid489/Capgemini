@@ -13,7 +13,7 @@ public class AuthorMain {
 		
 //		Book b = new Book("First Book", 2500.00, 1);
 		
-		System.out.println(as.updatePrice("anil", 1000.00));
+		System.out.println(as.updatePrice("aman", 2000.00));
 
 	}
 
