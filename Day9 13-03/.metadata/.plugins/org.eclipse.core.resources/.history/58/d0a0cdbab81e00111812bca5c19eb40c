@@ -1,0 +1,26 @@
+package com.cg.bean;
+
+import java.util.*;
+
+public class HelloWorld {
+	private String name;
+	private List<String> language;
+//	public HelloWorld() {
+//		
+//	}
+//	public HelloWorld(String name) {
+//		this.name=name;
+//	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name=name;
+	}
+	public <List> getLanguage(){
+		return language;
+	}
+public String sayHello() {
+	return "hello "+name+"!";
+}
+}

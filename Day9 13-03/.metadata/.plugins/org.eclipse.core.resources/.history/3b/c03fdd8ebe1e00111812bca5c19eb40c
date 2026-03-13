@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+   <bean id="hello" class="com.cg.bean.HelloWorld" scope="singleton">
+   <property name="name" value="Swati"></property>
+  <!--  <constructor-arg name="name" value="Mohit"></constructor-arg>  -->
+   <property name="Language">
+   <list>
+   	<value>Hindi</value>
+   	<value>English</value>
+   	<value>Sanskrit</value>
+   </list>
+   </property>
+   </bean>
+   <bean name="e" class="com.cg.bean.Employee">
+   <property name="empId" value="1001"/>
+   <property name="name" value="Aman"/>
+   <property name="address" ref="add"/>
+   </bean>
+</beans>
