@@ -37,11 +37,11 @@ public class SBU {
         System.out.println("SBU Name: " + sbuName);
         System.out.println("SBU Head: " + sbuHead);
 
-        System.out.println("\nEmployees in this BU:");
+        System.out.println("Employees in this BU:");
 
         for (Employee e : empList) {
             e.displayEmployeeDetails();
-            System.out.println("----------------------");
+            System.out.println("================");
         }
 	}
 }

@@ -39,8 +39,6 @@
     <property name="sbuId" value="1011"/>
     <property name="sbuName" value="PES"/>
     <property name="sbuHead" value="Mr Atul Singh"/>
-
-    <!-- Inject Employee List -->
     <property name="empList">
         <list>
             <ref bean="emp1"/>
